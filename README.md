@@ -5,6 +5,11 @@ Requires node, bower and gulp to run.
 
 Run npm install, bower install and then gulp to run
 
+## Based on
+
+Boy boilerplate
+https://github.com/corysimmons/boy
+
 ## Includes
 
 ### Stylus
