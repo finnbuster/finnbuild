@@ -291,6 +291,17 @@ body {
   border: 0;
   outline: 0;
 }
+body *:not(input):not(textarea):not(select) {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 img,
 video,
 iframe {
@@ -829,6 +840,107 @@ td {
   .column-offset {
     margin-left: calc(99.99% * (-1/2 * -1) - (30px - 30px * (-1/2 * -1)) + 30px) !important;
   }
+}
+.waffle-grid {
+  margin: 30px 0;
+  *zoom: 1;
+}
+.waffle-grid:before {
+  content: '';
+  display: table;
+}
+.waffle-grid:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.waffle-grid-item {
+  padding: 20px;
+  background: #40d451;
+  background: #29b83a -webkit-linear-gradient(top, #40d451, #29b83a) repeat-x;
+  background: #29b83a linear-gradient(to bottom, #40d451, #29b83a) repeat-x;
+  width: calc(99.99% * 1/3 - (30px - 30px * 1/3));
+  height: calc(99.99% * 1/3 - (30px - 30px * 1/3));
+  text-align: center;
+}
+.waffle-grid-item:nth-child(n) {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  clear: none;
+}
+.waffle-grid-item:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.waffle-grid-item:nth-child(3n) {
+  margin-right: 0;
+}
+.waffle-grid-item:nth-child(3n + 1) {
+  clear: left;
+}
+.waffle-grid-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.waffle-grid-item.waffle-grid-item--nopadding {
+  width: calc(99.999999% * 1/3);
+  height: calc(99.999999% * 1/3);
+}
+.waffle-grid-item.waffle-grid-item--nopadding:nth-child(n) {
+  float: left;
+  margin-right: 0;
+  margin-bottom: 0;
+  clear: none;
+}
+.waffle-grid-item.waffle-grid-item--nopadding:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.waffle-grid-item.waffle-grid-item--nopadding:nth-child(3n) {
+  margin-right: 0;
+}
+.waffle-grid-item.waffle-grid-item--nopadding:nth-child(3n + 1) {
+  clear: left;
+}
+.waffle-grid-item.waffle-grid-item--nopadding:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.column-no-gutters {
+  background: #e44921;
+  background: #bc3917 -webkit-linear-gradient(top, #e44921, #bc3917) repeat-x;
+  background: #bc3917 linear-gradient(to bottom, #e44921, #bc3917) repeat-x;
+  height: 300px;
+}
+@media only screen and (min-width: 600px) {
+  .column-no-gutters {
+    width: calc(99.999999% * 1/2);
+  }
+  .column-no-gutters:nth-child(n) {
+    float: left;
+    margin-right: 0;
+    clear: none;
+  }
+  .column-no-gutters:last-child {
+    margin-right: 0;
+  }
+  .column-no-gutters:nth-child(2n) {
+    margin-right: 0;
+  }
+  .column-no-gutters:nth-child(2n + 1) {
+    clear: left;
+  }
+}
+.grid-row {
+  *zoom: 1;
+}
+.grid-row:before {
+  content: '';
+  display: table;
+}
+.grid-row:after {
+  content: '';
+  display: table;
+  clear: both;
 }
 .align-parent {
   position: relative;
