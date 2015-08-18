@@ -76,16 +76,13 @@ var scss_files = [ 'scss/style.scss' ];
 var css_dest			= "/";
 
 var sprites_folder 		= 'img/icons',
-	sprites_css_output 	= "../../scss/_sprite.scss",
+	sprites_css_output 	= "../../styles/_sprite.styl",
 	sprites_destination	= "img/iconsprites";
 
 
 // Default Task
 
-gulp.task('default', ['styles', 'js-dev', 'browser-sync', 'watch:styles'], function() {
-	// gulp.watch('scss/**/*.scss', function() {
-	//     gulp.run('sass-dev');
-	// });
+gulp.task('default', ['styles', 'js-dev', 'browser-sync', 'watch:styles', 'watch:minifyimages', 'watch:favicon'], function() {
 	gulp.watch(javascripts, function() {
 	    gulp.run('js-dev');
 	});
@@ -96,9 +93,17 @@ gulp.task('watch:styles', function () {
 	gulp.watch('**/*.styl', ['styles']);
 });
 
+gulp.task('watch:minifyimages', function () {
+	gulp.watch('img/src/*', ['minifyimages']);
+});
+
+gulp.task('watch:favicon', function () {
+	gulp.watch('img/favicon-original.png', ['favicons']);
+});
+
 // Production Task
 
-gulp.task('production', ['sass-production', 'js-production'], function(){});
+gulp.task('production', ['styles-production', 'js-production'], function(){});
 
 
 
@@ -119,9 +124,9 @@ gulp.task('sprites', function () {
                     "dest": "./",
                     "bust": false,
                     "render": {
-                        "scss": {
+                        "styl": {
                             "dest": sprites_css_output,
-                            "template": "img/iconsprites/svgspritetemplate.scss"
+                            "template": "img/iconsprites/svgspritetemplate.styl"
                         }
                     }
                 }
