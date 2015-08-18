@@ -1,0 +1,30 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.0",
+  "authors": [
+    "Finn Robertson <finnbuster@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "font-awesome": "~4.4.0",
+    "fitvids": "~1.1.0",
+    "imagesloaded": "~3.1.8",
+    "slick.js": "~1.5.8",
+    "isotope": "~2.2.1",
+    "wtf-forms": "~2.2.0",
+    "waypoints": "~3.1.1",
+    "enquire": "~2.1.2",
+    "detectizr": "~2.0.0",
+    "js-cookie": "~2.0.3",
+    "share-button": "~0.5.0",
+    "pace": "~1.0.2"
+  }
+}

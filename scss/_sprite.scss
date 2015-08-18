@@ -1,0 +1,129 @@
+$sprite-base-font-size: 10;
+
+.sprite {
+    font-size: #{$sprite-base-font-size}px;
+    vertical-align: middle;
+    line-height: 1;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+}
+
+.sprite {
+    background-repeat: no-repeat;
+    background-image: url(img/iconsprites/sprite.svg);
+    background-size: 69em*(1/$sprite-base-font-size) 611em*(1/$sprite-base-font-size);
+}
+
+.no-svg .sprite {
+    background-image: url(img/iconsprites/sprite.png);
+}
+
+.sprite-facebook_logo_big {
+    background-position: 0em*(1/$sprite-base-font-size) 0em*(1/$sprite-base-font-size);
+    width: 27em*(1/$sprite-base-font-size);
+    height: 26em*(1/$sprite-base-font-size);
+}
+
+.sprite-facebook_logo_footer {
+    background-position: 0em*(1/$sprite-base-font-size) -26em*(1/$sprite-base-font-size);
+    width: 16em*(1/$sprite-base-font-size);
+    height: 16em*(1/$sprite-base-font-size);
+}
+
+.sprite-facebook_logo_footer_white {
+    background-position: 0em*(1/$sprite-base-font-size) -42em*(1/$sprite-base-font-size);
+    width: 16em*(1/$sprite-base-font-size);
+    height: 16em*(1/$sprite-base-font-size);
+}
+
+.sprite-instagram_logo_big {
+    background-position: 0em*(1/$sprite-base-font-size) -58em*(1/$sprite-base-font-size);
+    width: 28em*(1/$sprite-base-font-size);
+    height: 26em*(1/$sprite-base-font-size);
+}
+
+.sprite-instagram_logo_footer {
+    background-position: 0em*(1/$sprite-base-font-size) -84em*(1/$sprite-base-font-size);
+    width: 17em*(1/$sprite-base-font-size);
+    height: 16em*(1/$sprite-base-font-size);
+}
+
+.sprite-instagram_logo_footer_white {
+    background-position: 0em*(1/$sprite-base-font-size) -100em*(1/$sprite-base-font-size);
+    width: 17em*(1/$sprite-base-font-size);
+    height: 16em*(1/$sprite-base-font-size);
+}
+
+.sprite-instagram_logo_posts {
+    background-position: 0em*(1/$sprite-base-font-size) -116em*(1/$sprite-base-font-size);
+    width: 38em*(1/$sprite-base-font-size);
+    height: 36em*(1/$sprite-base-font-size);
+}
+
+.sprite-linkedin {
+    background-position: 0em*(1/$sprite-base-font-size) -152em*(1/$sprite-base-font-size);
+    width: 15.27em*(1/$sprite-base-font-size);
+    height: 15.651em*(1/$sprite-base-font-size);
+}
+
+.sprite-post-arrow-left {
+    background-position: 0em*(1/$sprite-base-font-size) -168em*(1/$sprite-base-font-size);
+    width: 10em*(1/$sprite-base-font-size);
+    height: 15em*(1/$sprite-base-font-size);
+}
+
+.sprite-post-facebook-share {
+    background-position: 0em*(1/$sprite-base-font-size) -183em*(1/$sprite-base-font-size);
+    width: 16em*(1/$sprite-base-font-size);
+    height: 16em*(1/$sprite-base-font-size);
+}
+
+.sprite-slider-arrow-left {
+    background-position: 0em*(1/$sprite-base-font-size) -199em*(1/$sprite-base-font-size);
+    width: 69em*(1/$sprite-base-font-size);
+    height: 101em*(1/$sprite-base-font-size);
+}
+
+.sprite-slider-arrow-left-mobile {
+    background-position: 0em*(1/$sprite-base-font-size) -300em*(1/$sprite-base-font-size);
+    width: 50em*(1/$sprite-base-font-size);
+    height: 65em*(1/$sprite-base-font-size);
+}
+
+.sprite-slider-arrow-right {
+    background-position: 0em*(1/$sprite-base-font-size) -365em*(1/$sprite-base-font-size);
+    width: 69em*(1/$sprite-base-font-size);
+    height: 101em*(1/$sprite-base-font-size);
+}
+
+.sprite-slider-arrow-right-mobile {
+    background-position: 0em*(1/$sprite-base-font-size) -466em*(1/$sprite-base-font-size);
+    width: 50em*(1/$sprite-base-font-size);
+    height: 64em*(1/$sprite-base-font-size);
+}
+
+.sprite-slider-dot {
+    background-position: 0em*(1/$sprite-base-font-size) -530em*(1/$sprite-base-font-size);
+    width: 10em*(1/$sprite-base-font-size);
+    height: 10em*(1/$sprite-base-font-size);
+}
+
+.sprite-slider-dot-current {
+    background-position: 0em*(1/$sprite-base-font-size) -540em*(1/$sprite-base-font-size);
+    width: 10em*(1/$sprite-base-font-size);
+    height: 10em*(1/$sprite-base-font-size);
+}
+
+.sprite-x_close_desktop {
+    background-position: 0em*(1/$sprite-base-font-size) -550em*(1/$sprite-base-font-size);
+    width: 40em*(1/$sprite-base-font-size);
+    height: 40em*(1/$sprite-base-font-size);
+}
+
+.sprite-x_close_mobile {
+    background-position: 0em*(1/$sprite-base-font-size) -590em*(1/$sprite-base-font-size);
+    width: 21em*(1/$sprite-base-font-size);
+    height: 21em*(1/$sprite-base-font-size);
+}
+
