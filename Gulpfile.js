@@ -29,36 +29,31 @@ var processors = [
 ];
 
 var javascripts = [
+	// 'bower_components/jquery/dist/jquery.js',
 	'bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js',
 	'bower_components/detectizr/dist/detectizr.js',
-	// 'bower_components/jquery-cycle2/build/jquery.cycle2.js',
-	// 'bower_components/jquery-cycle2/build/plugin/jquery.cycle2.swipe.min.js',
-	// 'bower_components/jquery-cycle2/build/plugin/jquery.cycle2.center.min.js',
-	// 'bower_components/jquery-cycle2/build/plugin/jquery.cycle2.carousel.min.js',
 	// 'bower_components/skrollr/dist/skrollr.min.js',
 	'bower_components/enquire/dist/enquire.js',
 	'bower_components/slick.js/slick/slick.js',
 	// 'bower_components/select/select.min.js',
 	// 'bower_components/jquery-validate/build/release.js',
 	// 'bower_components/respondJS/respond.min.js',
-	// 'bower_components/ResponsiveSlides.js/responsiveslides.js',
-	// 'bower_components/threesixty-slider/threesixty.min.js',
 	// 'bower_components/semantic/build/packaged/javascript/semantic.min.js',
 	// 'bower_components/semantic-ui/build/uncompressed/modules/behavior/form.js',
 	// 'bower_components/semantic-ui/build/uncompressed/modules/transition.js',
 	// 'bower_components/foundation/js/foundation/foundation.js',
 	// 'bower_components/foundation/js/foundation/foundation.interchange.js',
 	// 'bower_components/foundation/js/foundation.js',
-	// 'bower_components/fitvids/jquery.fitvids.js',
-	// 'bower_components/waypoints/lib/jquery.waypoints.js',
-	// 'bower_components/waypoints/lib/shortcuts/sticky.js',
-	// 'bower_components/flowtype/flowtype.js',
+	'bower_components/fitvids/jquery.fitvids.js',
+	'bower_components/waypoints/lib/jquery.waypoints.js',
+	'bower_components/waypoints/lib/shortcuts/sticky.js',
 	// 'js/*.js'
 	// 'js/acfgooglemap.js',
 	'bower_components/js-cookie/src/js.cookie.js',
 	//	'bower_components/RRSSB/js/rrssb.js',
 	'bower_components/pace/pace.js',
 	'bower_components/jquery.scrollTo/jquery.scrollTo.js',
+	'bower_components/ajaxchimp/jquery.ajaxchimp.js',
 	'js/site.js'
 ]
 

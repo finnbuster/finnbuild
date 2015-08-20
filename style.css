@@ -1257,6 +1257,58 @@ form .field.warning input:focus {
   border: 1px solid #d2bc2d;
   outline: none;
 }
+input[type="text"],
+input[type="email"] {
+  clear: both;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 370px;
+}
+input[type="text"].error,
+input[type="email"].error {
+  color: #d13f19;
+}
+input[type="text"].error input,
+input[type="email"].error input {
+  color: #d13f19;
+  border-color: #d13f19;
+}
+input[type="text"].error input:focus,
+input[type="email"].error input:focus {
+  box-shadow: 0 0 5px rgba(209,63,25,0.7);
+  border: 1px solid #b15239;
+  outline: none;
+}
+input[type="text"].success,
+input[type="email"].success {
+  color: #2ecc40;
+}
+input[type="text"].success input,
+input[type="email"].success input {
+  color: #2ecc40;
+  border-color: #2ecc40;
+}
+input[type="text"].success input:focus,
+input[type="email"].success input:focus {
+  box-shadow: 0 0 5px rgba(46,204,64,0.7);
+  border: 1px solid #4ab055;
+  outline: none;
+}
+input[type="text"].warning,
+input[type="email"].warning {
+  color: #d9bb00;
+}
+input[type="text"].warning input,
+input[type="email"].warning input {
+  color: #d9bb00;
+  border-color: #ffdc00;
+}
+input[type="text"].warning input:focus,
+input[type="email"].warning input:focus {
+  box-shadow: 0 0 5px rgba(255,220,0,0.7);
+  border: 1px solid #d2bc2d;
+  outline: none;
+}
 input {
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
   -webkit-font-smoothing: antialiased;

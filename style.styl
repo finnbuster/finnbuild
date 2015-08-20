@@ -158,6 +158,17 @@ form
 		&.disabled
 			field-disabled()
 			
+input[type="text"], input[type="email"]
+	field(left)
+	&.error
+		field-error()
+	&.success
+		field-success()
+	&.warning
+		field-warning()
+	&.disabled
+		field-disabled()
+			
 input
 	input()
 
