@@ -27,9 +27,11 @@
       <h2>Mailchimp</h2>
       
       <form class="mailchimp-form">
-        <label for="mc-email"></label>
-        <input id="mc-email" type="email" placeholder="email">
-        <input type="submit" value="Submit">
+        <div class="field">
+          <input id="mc-email" type="email" placeholder="email">
+          <label for="mc-email"></label>
+        </div>
+        <button type="submit" value="Submit" class="button--glossy">Submit</button>
       </form>
 
       <!--<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us2.list-manage.com","uuid":"fea39c610b49b69bbfa0c3a29","lid":"620444afb9"}) })</script>-->
@@ -69,9 +71,21 @@
         <h6>Heading 1</h6>
       </div>
       <div class="column">
-        <h2>Code</h2>
-        <code>Some code</code>
-        <pre>Some pre</pre>
+        <h2>Elements</h2>
+        <ul>
+          <li>Unordered 1</li>
+          <li>Unordered 2</li>
+          <li>Unordered 3</li>
+          <li>Unordered 4</li>
+        </ul>
+        <ol>
+          <li>Ordered 1</li>
+          <li>Ordered 2</li>
+          <li>Ordered 3</li>
+          <li>Ordered 4</li>
+        </ol>
+        <code>Some code: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aspernatur dolor sed iste, saepe quod rem deleniti inventore libero nam, vero atque veniam odit in sapiente necessitatibus, quas soluta obcaecati.</code>
+        <pre>Some pre Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam deserunt nobis porro, eligendi, excepturi voluptate provident consectetur dolor mollitia dolorem et, magni corporis modi, eum molestias. Odio ad, nihil beatae.</pre>
       </div>
     </div>
 
@@ -163,12 +177,20 @@
 
 
     <div class="container">
-      <h2>Radio buttons</h2>
-      <fieldset class="radio-buttons">
-        <label for="terse" class="radio"><input id="terse" type="radio" value="terse" name="quality"><span>terse</span></label>
-        <label for="modular" class="radio"><input id="modular" type="radio" value="modular" name="quality"><span>modular</span></label>
-          <label for="powerful" class="radio"><input id="powerful" type="radio" value="powerful" name="quality"><span>powerful</span></label>
-      </fieldset>
+      <div class="column">
+        <h2>Radio buttons</h2>
+        <fieldset class="radio-buttons">
+          <label for="terse" class="radio"><input id="terse" type="radio" value="terse" name="quality"><span>terse</span></label>
+          <label for="modular" class="radio"><input id="modular" type="radio" value="modular" name="quality"><span>modular</span></label>
+            <label for="powerful" class="radio"><input id="powerful" type="radio" value="powerful" name="quality"><span>powerful</span></label>
+        </fieldset>
+      </div>
+      <div class="column">
+        <h2>Range</h2>
+        <fieldset class="radio-buttons">
+          <input type="range" class="range">
+        </fieldset>
+      </div>
     </div>
 
 

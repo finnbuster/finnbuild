@@ -131,7 +131,13 @@ typographic()
 	color white
 	// bubble()
 	bubble(pos0: bottom, pos1: right, color: red, triangleSize: 15px, padding: 20px, triangleColor: blue)
-	
+
+.radio
+	radio()
+
+.range
+	range(blue, 100%, 1.5em)
+  
 code
 	code: blue
 
@@ -157,9 +163,10 @@ form
 			field-warning()
 		&.disabled
 			field-disabled()
-			
+		
 input[type="text"], input[type="email"]
-	field(left)
+	// field(left)
+	input()
 	&.error
 		field-error()
 	&.success
@@ -168,9 +175,7 @@ input[type="text"], input[type="email"]
 		field-warning()
 	&.disabled
 		field-disabled()
-			
-input
-	input()
+	
 
 label
 	label()
