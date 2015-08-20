@@ -1,0 +1,51 @@
+.slick-slider 
+	opacity: 0
+	// padding-bottom: 20px
+
+	&.slick-initialized 
+		opacity: 1
+	
+
+	.container
+	// 	position: relative
+		// padding-top: 140px
+		// padding-bottom: 140px
+	
+
+.slider-arrows
+	position: absolute
+	top: 35%
+	left: 0
+	right: 0
+	height: 0
+
+	.container
+		position: relative
+		padding-top: 0
+		padding-bottom: 0
+	
+
+	.slick-prev, .slick-next
+		position: absolute
+		top: 50%
+		// margin-top: -22px
+		// @include translateY(-50%)
+		left: auto
+		right: 0px
+		width: auto
+		height: auto
+		cursor: pointer
+		opacity: 0.5
+		// @include transition(opacity 0.5s)
+		&:hover
+			opacity: 1
+		
+	
+
+	.slick-prev
+		left: 0px
+		right: auto
+	
+
+	+above('m')
+		top: 50%
