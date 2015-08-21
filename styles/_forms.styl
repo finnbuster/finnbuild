@@ -1,0 +1,37 @@
+.radio
+	radio()
+
+.range
+	range(blue, 100%, 1.5em)
+	
+form 
+	.field
+		field(left)
+		max-width 100%
+		
+		&.error
+			field-error()
+		&.success
+			field-success()
+		&.warning
+			field-warning()
+		&.disabled
+			field-disabled()
+	
+input[type="text"], input[type="email"]
+	// field(left)
+	input()
+	&.error
+		field-error()
+	&.success
+		field-success()
+	&.warning
+		field-warning()
+	&.disabled
+		field-disabled()
+	
+
+label
+	label()
+	&.label--block
+		label: block

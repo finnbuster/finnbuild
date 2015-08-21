@@ -1,20 +1,19 @@
+.slick-slider-container
+	position relative
+
 .slick-slider 
 	opacity: 0
-	// padding-bottom: 20px
+	
+	.slick-slide img
+		width 100%
 
 	&.slick-initialized 
 		opacity: 1
-	
 
-	.container
-	// 	position: relative
-		// padding-top: 140px
-		// padding-bottom: 140px
-	
 
 .slider-arrows
 	position: absolute
-	top: 35%
+	top: 0
 	left: 0
 	right: 0
 	height: 0
@@ -24,28 +23,26 @@
 		padding-top: 0
 		padding-bottom: 0
 	
-
 	.slick-prev, .slick-next
 		position: absolute
 		top: 50%
-		// margin-top: -22px
-		// @include translateY(-50%)
+		transform translateY(-50%)
 		left: auto
 		right: 0px
 		width: auto
 		height: auto
 		cursor: pointer
 		opacity: 0.5
-		// @include transition(opacity 0.5s)
+		transition opacity 0.5s
+		
 		&:hover
 			opacity: 1
-		
-	
+			
+		&:before
+			display none
 
 	.slick-prev
 		left: 0px
 		right: auto
 	
-
-	+above('m')
-		top: 50%
+	top: 50%

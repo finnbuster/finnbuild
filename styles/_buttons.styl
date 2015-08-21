@@ -1,0 +1,13 @@
+.button
+	button red 'large'
+	box-shadow 0 2px 10px rgba(black, 0.5)
+	transition box-shadow ease 0.3s
+	
+	&:hover
+		box-shadow 0 0 2px rgba(black, 0.5)
+		
+.button--glossy
+	// glossy-button red 'large'
+	glossy-button(color: orange, size: 18, textColor: white)
+	hover-pop: 1.2 3deg true
+	transition all ease 0.2s

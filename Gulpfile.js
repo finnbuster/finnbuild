@@ -54,6 +54,7 @@ var javascripts = [
 	'bower_components/pace/pace.js',
 	'bower_components/jquery.scrollTo/jquery.scrollTo.js',
 	'bower_components/ajaxchimp/jquery.ajaxchimp.js',
+	'bower_components/share-button/build/share.js',
 	'js/site.js'
 ]
 

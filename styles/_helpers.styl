@@ -1,0 +1,68 @@
+.hidden
+	display none
+
+.hide-mobile
+	display none
+
+	+above('m')
+		display block
+
+.show-only-mobile
+	display block
+	
+	+above('m')
+		display none
+
+.show-only-mobile-inline
+	display inline
+	
+	+above('m')
+		display none
+
+.show-only-mobile-inline-block
+	display inline-block
+	
+	+above('m')
+		display none
+
+.show-tablet
+	display none
+
+	+above('m')
+		display block
+
+.show-tablet-inline
+	display none
+
+	+above('m')
+		display inline
+
+.show-tablet-inline-block
+	display none
+
+	+above('m')
+		display inline-block
+
+.show-desktop
+	display none
+
+	+above('l')
+		display block
+
+.show-desktop-inline
+	display none
+
+	+above('l')
+		display inline
+
+.show-desktop-inline-block
+	display none
+
+	+above('l')
+		display inline-block
+
+.float-left
+	float left
+
+.float-right
+	float right
