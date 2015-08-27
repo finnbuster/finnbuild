@@ -10,39 +10,28 @@
 	&.slick-initialized 
 		opacity: 1
 
+slick-arrow-offset = 10px
 
-.slider-arrows
+.slick-prev, .slick-next
 	position: absolute
-	top: 0
-	left: 0
-	right: 0
-	height: 0
-
-	.container
-		position: relative
-		padding-top: 0
-		padding-bottom: 0
-	
-	.slick-prev, .slick-next
-		position: absolute
-		top: 50%
-		transform translateY(-50%)
-		left: auto
-		right: 0px
-		width: auto
-		height: auto
-		cursor: pointer
-		opacity: 0.5
-		transition opacity 0.5s
-		
-		&:hover
-			opacity: 1
-			
-		&:before
-			display none
-
-	.slick-prev
-		left: 0px
-		right: auto
-	
 	top: 50%
+	transform translateY(-50%)
+	left: auto
+	right: slick-arrow-offset
+	width: auto
+	height: auto
+	cursor: pointer
+	opacity: 0.5
+	transition opacity 0.5s
+	z-index: 1000
+	
+	&:hover
+		opacity: 1
+		
+	&:before
+		display none
+		color red
+		
+.slick-prev
+	left: slick-arrow-offset
+	right: auto

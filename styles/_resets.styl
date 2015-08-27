@@ -1,3 +1,12 @@
+*,
+*:before,
+*:after {
+  *behavior: url("js/vendor/boxsizing.htc");
+  // box-sizing: border-box;
+  // margin: 0;
+  // padding: 0;
+}
+
 // global-reset()
 // nested-reset()
 
@@ -29,3 +38,21 @@ print-styles()
 
 :focus
 	outline none
+	
+.browsehappy
+	width 100%
+	padding 15px
+	background #333
+	color #fff
+	font-size 13px
+	line-height 21px
+	cursor pointer
+	text-align center
+
+.browsehappy a
+	color #fff
+	font-weight bold
+
+.browsehappy ahover
+	text-decoration none
+

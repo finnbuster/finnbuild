@@ -63,8 +63,7 @@ $(function() {
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
 	  dots: false,
-	  arrows: true,
-	  appendArrows: $('.slider-arrows .container')
+	  arrows: true
 	});
 
 

@@ -1,108 +1,7 @@
-.sprite {
-  font-size: 10px;
-  vertical-align: middle;
-  line-height: 1;
-  position: relative;
-  top: 1px;
-  display: inline-block;
-}
-.sprite {
-  background-repeat: no-repeat;
-  background-image: url("img/iconsprites/sprite.svg");
-  background-size: 6.9em 61.1em;
-}
-.no-svg .sprite {
-  background-image: url("img/iconsprites/sprite.png");
-}
-.sprite-facebook_logo_big {
-  background-position: 0em 0em;
-  width: 2.7em;
-  height: 2.6em;
-}
-.sprite-facebook_logo_footer {
-  background-position: 0em -2.6em;
-  width: 1.6em;
-  height: 1.6em;
-}
-.sprite-facebook_logo_footer_white {
-  background-position: 0em -4.2em;
-  width: 1.6em;
-  height: 1.6em;
-}
-.sprite-instagram_logo_big {
-  background-position: 0em -5.800000000000001em;
-  width: 2.8em;
-  height: 2.6em;
-}
-.sprite-instagram_logo_footer {
-  background-position: 0em -8.4em;
-  width: 1.7em;
-  height: 1.6em;
-}
-.sprite-instagram_logo_footer_white {
-  background-position: 0em -10em;
-  width: 1.7em;
-  height: 1.6em;
-}
-.sprite-instagram_logo_posts {
-  background-position: 0em -11.600000000000001em;
-  width: 3.8em;
-  height: 3.6em;
-}
-.sprite-linkedin {
-  background-position: 0em -15.200000000000001em;
-  width: 1.527em;
-  height: 1.5651em;
-}
-.sprite-post-arrow-left {
-  background-position: 0em -16.8em;
-  width: 1em;
-  height: 1.5em;
-}
-.sprite-post-facebook-share {
-  background-position: 0em -18.3em;
-  width: 1.6em;
-  height: 1.6em;
-}
-.sprite-slider-arrow-left {
-  background-position: 0em -19.900000000000002em;
-  width: 6.9em;
-  height: 10.100000000000001em;
-}
-.sprite-slider-arrow-left-mobile {
-  background-position: 0em -30em;
-  width: 5em;
-  height: 6.5em;
-}
-.sprite-slider-arrow-right {
-  background-position: 0em -36.5em;
-  width: 6.9em;
-  height: 10.100000000000001em;
-}
-.sprite-slider-arrow-right-mobile {
-  background-position: 0em -46.6em;
-  width: 5em;
-  height: 6.4em;
-}
-.sprite-slider-dot {
-  background-position: 0em -53em;
-  width: 1em;
-  height: 1em;
-}
-.sprite-slider-dot-current {
-  background-position: 0em -54em;
-  width: 1em;
-  height: 1em;
-}
-.sprite-x_close_desktop {
-  background-position: 0em -55em;
-  width: 4em;
-  height: 4em;
-}
-.sprite-x_close_mobile {
-  background-position: 0em -59em;
-  width: 2.1em;
-  height: 2.1em;
+*,
+*:before,
+*:after {
+  *behavior: url("js/vendor/boxsizing.htc");
 }
 html {
   font-family: sans-serif;
@@ -435,6 +334,129 @@ iframe {
 }
 :focus {
   outline: none;
+}
+.browsehappy {
+  width: 100%;
+  padding: 15px;
+  background: #333;
+  color: #fff;
+  font-size: 13px;
+  line-height: 21px;
+  cursor: pointer;
+  text-align: center;
+}
+.browsehappy a {
+  color: #fff;
+  font-weight: bold;
+}
+.browsehappy ahover {
+  text-decoration: none;
+}
+.sprite {
+  font-size: 10px;
+  vertical-align: middle;
+  line-height: 1;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+}
+.sprite {
+  background-repeat: no-repeat;
+  background-image: url("img/iconsprites/sprite.svg");
+  background-size: 6.9em 61.1em;
+}
+.no-svg .sprite {
+  background-image: url("img/iconsprites/sprite.png");
+}
+.sprite-facebook_logo_big {
+  background-position: 0em 0em;
+  width: 2.7em;
+  height: 2.6em;
+}
+.sprite-facebook_logo_footer {
+  background-position: 0em -2.6em;
+  width: 1.6em;
+  height: 1.6em;
+}
+.sprite-facebook_logo_footer_white {
+  background-position: 0em -4.2em;
+  width: 1.6em;
+  height: 1.6em;
+}
+.sprite-instagram_logo_big {
+  background-position: 0em -5.800000000000001em;
+  width: 2.8em;
+  height: 2.6em;
+}
+.sprite-instagram_logo_footer {
+  background-position: 0em -8.4em;
+  width: 1.7em;
+  height: 1.6em;
+}
+.sprite-instagram_logo_footer_white {
+  background-position: 0em -10em;
+  width: 1.7em;
+  height: 1.6em;
+}
+.sprite-instagram_logo_posts {
+  background-position: 0em -11.600000000000001em;
+  width: 3.8em;
+  height: 3.6em;
+}
+.sprite-linkedin {
+  background-position: 0em -15.200000000000001em;
+  width: 1.527em;
+  height: 1.5651em;
+}
+.sprite-post-arrow-left {
+  background-position: 0em -16.8em;
+  width: 1em;
+  height: 1.5em;
+}
+.sprite-post-facebook-share {
+  background-position: 0em -18.3em;
+  width: 1.6em;
+  height: 1.6em;
+}
+.sprite-slider-arrow-left {
+  background-position: 0em -19.900000000000002em;
+  width: 6.9em;
+  height: 10.100000000000001em;
+}
+.sprite-slider-arrow-left-mobile {
+  background-position: 0em -30em;
+  width: 5em;
+  height: 6.5em;
+}
+.sprite-slider-arrow-right {
+  background-position: 0em -36.5em;
+  width: 6.9em;
+  height: 10.100000000000001em;
+}
+.sprite-slider-arrow-right-mobile {
+  background-position: 0em -46.6em;
+  width: 5em;
+  height: 6.4em;
+}
+.sprite-slider-dot {
+  background-position: 0em -53em;
+  width: 1em;
+  height: 1em;
+}
+.sprite-slider-dot-current {
+  background-position: 0em -54em;
+  width: 1em;
+  height: 1em;
+}
+.sprite-x_close_desktop {
+  background-position: 0em -55em;
+  width: 4em;
+  height: 4em;
+}
+.sprite-x_close_mobile {
+  background-position: 0em -59em;
+  width: 2.1em;
+  height: 2.1em;
 }
 .hidden {
   display: none;
@@ -1887,45 +1909,34 @@ label.label--block {
 .slick-slider.slick-initialized {
   opacity: 1;
 }
-.slider-arrows {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 0;
-  top: 50%;
-}
-.slider-arrows .container {
-  position: relative;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.slider-arrows .slick-prev,
-.slider-arrows .slick-next {
+.slick-prev,
+.slick-next {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
       transform: translateY(-50%);
   left: auto;
-  right: 0px;
+  right: 10px;
   width: auto;
   height: auto;
   cursor: pointer;
   opacity: 0.5;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
+  z-index: 1000;
 }
-.slider-arrows .slick-prev:hover,
-.slider-arrows .slick-next:hover {
+.slick-prev:hover,
+.slick-next:hover {
   opacity: 1;
 }
-.slider-arrows .slick-prev:before,
-.slider-arrows .slick-next:before {
+.slick-prev:before,
+.slick-next:before {
   display: none;
+  color: #d13f19;
 }
-.slider-arrows .slick-prev {
-  left: 0px;
+.slick-prev {
+  left: 10px;
   right: auto;
 }
 
