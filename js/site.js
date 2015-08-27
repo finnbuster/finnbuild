@@ -177,6 +177,68 @@ $(function() {
 	  event.preventDefault();
 	  $(window).scrollTo($('.home-more-info'), 1500, {offset:-40});
 	});
-	
+
+
+	// share buttons
+
+	var share_button_top = new Share(".share-button-top", {
+	  title: "Share Button Multiple Element Test",
+	  ui: {
+	    flyout: "top center"
+	  },
+	  networks: {
+	    facebook: {
+	      app_id: "602752456409826",
+	    },
+	    googlePlus: {
+          enabled: false
+        },
+        twitter: {
+          enabled: false
+        },
+        pinterest: {
+          enabled: false
+        },
+        reddit: {
+          enabled: false // Enable Reddit. [Default: true]
+        },
+        linkedin: {
+          enabled: false // Enable LinkedIn. [Default: true]
+        },
+        whatsapp: {
+          enabled: false // Enable WhatsApp. [Default: true]
+        },
+        email: {
+          enabled: false // Enable Email. [Default: true]
+        }
+	  }
+	});
+
+	var share_button_left = new Share(".share-button-left", {
+	  title: "Share Button Multiple Instantiation Test",
+	  ui: {
+	    flyout: "top left",
+	    button_text: "Left"
+	  },
+	  networks: {
+	    facebook: {
+	      app_id: "602752456409826",
+	    }
+	  }
+	});
+
+	var share_button_right = new Share(".share-button-bottom", {
+	  title: "Share Button Multiple Instantiation Test",
+	  ui: {
+	    flyout: "bottom right",
+	    button_text: "Right"
+	  },
+	  networks: {
+	    facebook: {
+	      app_id: "602752456409826",
+	    }
+	  }
+	});
+
 
 });
